@@ -19,7 +19,7 @@ public class Main {
         size = scanner.nextInt();
         logger.log("Введите верхнюю границу для значений:");
         max = scanner.nextInt();
-        logger.log("Просим пользователя ввести входные данные для фильтрации");
+        logger.log("Введите входные данные для фильтрации");
         f = scanner.nextInt();
         logger.log("Запускаем фильтрацию");
         for(int i = 0; i < size; i++){
